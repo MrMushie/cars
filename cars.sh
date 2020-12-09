@@ -15,7 +15,7 @@ while [ "$usernum" != 4 ]; do
 		echo "Model"
 		read model
 		echo "$year:$make:$model" >> My_old_cars;;
-		2) echo "$(sort My_old_cars)";;
+		2) sort "My_old_cars";;
 		3) echo "Goodbye"
 		exit;;
 		
